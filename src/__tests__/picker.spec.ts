@@ -15,7 +15,7 @@ function catalog() {
 	return c
 }
 const id = async (t: string) => t
-const resolver = (c: NameCatalog) => ({ catalog: c, resolve: c.resolveObject.bind(c, 'Sequences') as never })
+const resolver = (c: NameCatalog) => ({ catalog: c, resolve: (dp: string, o: string) => c.resolve(dp, o) })
 
 describe('DataPool → object picker', () => {
 	it('builds a DataPool dropdown and one object dropdown per DataPool', () => {

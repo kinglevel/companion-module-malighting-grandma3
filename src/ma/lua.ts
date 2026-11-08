@@ -18,9 +18,13 @@
  *  - only validated integers are ever interpolated into calls (no user text → no injection).
  */
 
-import { CATALOG_KINDS } from './catalog.js'
+import { OBJECT_KINDS } from './catalog.js'
 
-export const LUA_API_VERSION = 5
+const luaList = (kinds: readonly string[]): string => kinds.map((k) => `'${k}'`).join(',')
+const FLAT_KINDS = luaList(OBJECT_KINDS.filter((k) => !('nested' in k && k.nested)).map((k) => k.kind))
+const NESTED_KINDS = luaList(OBJECT_KINDS.filter((k) => 'nested' in k && k.nested).map((k) => k.kind))
+
+export const LUA_API_VERSION = 6
 
 /** Parts are sent as separate `Lua` commands; globals persist between them. */
 export const BOOTSTRAP_PARTS: readonly string[] = [
@@ -52,14 +56,16 @@ export const BOOTSTRAP_PARTS: readonly string[] = [
 		`for i=1,#a-1,2 do pcall(function() Q.rec(o,req,a[i],Q.find(a[i],a[i+1]),a[i+1]) end) n=n+1 end ` +
 		`o.m('end','isi',req,'seqs',n) o.close() end`,
 	// Part 4: full sync = name catalog plus a state record for every running sequence. Catalog
-	// messages are `cat ,is(iis)*`: request id, kind, then (DataPool, number, name) triples, batched
-	// 16 per datagram. Kind `DataPools` lists the pools themselves; the object kinds are the DataPool
-	// collections in CATALOG_KINDS, reached by NAME (d[kind]).
+	// messages are `cat ,is(iss)*`: request id, kind, then (DataPool, id, name) triples, batched 16 per
+	// datagram. Kind `DataPools` lists the pools themselves (id = DataPool number); object kinds are the
+	// DataPool collections in OBJECT_KINDS, reached by NAME (d[kind]); nested kinds (PresetPools) use
+	// `pool.object` ids.
 	`local Q=CompanionQ function Q.sync(port,req) local o=Q.tx(port) if not o then return end local n,t,Bs=0,0,{} ` +
-		`local function fl(k) local b=Bs[k] if b and b.c>0 then o.m('cat','is'..string.rep('iis',b.c),req,k,table.unpack(b.v)) end Bs[k]=nil end ` +
-		`local function add(k,dp,no,nm) local b=Bs[k] or {c=0,v={}} Bs[k]=b local v=b.v v[#v+1]=dp v[#v+1]=no v[#v+1]=tostring(nm or '') b.c=b.c+1 if b.c>=16 then fl(k) end end ` +
+		`local function fl(k) local b=Bs[k] if b and b.c>0 then o.m('cat','is'..string.rep('iss',b.c),req,k,table.unpack(b.v)) end Bs[k]=nil end ` +
+		`local function add(k,dp,id,nm) local b=Bs[k] or {c=0,v={}} Bs[k]=b local v=b.v v[#v+1]=dp v[#v+1]=tostring(id) v[#v+1]=tostring(nm or '') b.c=b.c+1 if b.c>=16 then fl(k) end end ` +
 		`for _,d in ipairs(Root().ShowData.DataPools:Children()) do pcall(function() add('DataPools',d.no,d.no,d.name) ` +
-		`for _,k in ipairs({${CATALOG_KINDS.map((k) => `'${k}'`).join(',')}}) do pcall(function() for _,x in ipairs(d[k]:Children()) do add(k,d.no,x.no,x.name) end end) end ` +
+		`for _,k in ipairs({${FLAT_KINDS}}) do pcall(function() for _,x in ipairs(d[k]:Children()) do add(k,d.no,x.no,x.name) end end) end ` +
+		`for _,k in ipairs({${NESTED_KINDS}}) do pcall(function() for _,p in ipairs(d[k]:Children()) do for _,x in ipairs(p:Children()) do add(k,d.no,p.no..'.'..x.no,x.name) end end end) end ` +
 		`for _,s in ipairs(d.Sequences:Children()) do t=t+1 ` +
 		`local ok,r=pcall(function() return s:HasActivePlayback() end) if ok and r then pcall(Q.rec,o,req,d.no,s,s.no) n=n+1 end end end) end ` +
 		`fl('DataPools') for k in pairs(Bs) do fl(k) end o.m('end','isii',req,'sync',n,t) o.close() end`,

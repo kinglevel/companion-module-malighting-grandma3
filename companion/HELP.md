@@ -60,6 +60,19 @@ Nothing is installed or stored in the show. On connect the module defines a temp
 - Without Lua queries, sequences are "unknown" until grandMA3 reports something for them, and fader AutoStart/AutoStop is assumed (option).
 - grandMA3 sends no feedback for actions it received as direct OSC executor/object input, including this module's own **Executor Button** action (`/PageX/KeyY`). With Lua queries enabled, the module therefore reads the state of the executor's sequence after each press (one short read-only query per press). Without Lua queries such presses are not followed; use **Run Command** (e.g. `Go+ Page 1.201`) instead.
 
+# Call Object by DataPool/Name
+
+The **Call Object by DataPool/Name** action runs a function on any grandMA3 object:
+
+1. **DataPool**: pick one (`125: Show`) or type a number or name
+2. **Object type**: Sequence, Group, Preset, Macro, Plugin, Quickey, MAtricks, Timer, World, Filter, Layout, Timecode or Page
+3. **Object**: pick it from the list of that type in the chosen DataPool (`212: FR P1`, presets as `4.1: White`), or type a number or name
+4. **Function**: Go+, Go-, Top, On, Off, Toggle, Pause, Kill, Flash On/Off, Temp On/Off, Call, Select, Load, or type another command keyword (letters, + and - only)
+
+It sends a command such as `Go+ DataPool 125 Sequence "FR P1"`: numbers as they are, names in quotes (grandMA3 resolves them). The lists come from grandMA3 when feedback with Lua queries is on; without them the dropdowns stay empty and you type the number or name into them, so the action also works with feedback switched off. Names containing `"` cannot be sent. **Learn** selects the last sequence operated in grandMA3.
+
+Presets for every object type are in the presets panel under Sequences, Groups, Presets, Macros, Plugins, Quickeys, MAtricks, Worlds and Timers; they use object 1 in DataPool 1, re-pick the object after dragging one onto a button.
+
 # Example configuration
 
 I do provide a custom-made Companion Layout for a StreamDeck XL, that is fully compatible with this plugin. You can download it from [here](https://github.com/bitfocus/companion-module-malighting-grandma3/tree/main/configuration-examples).
@@ -79,4 +92,5 @@ This page is a virtual numpad that allows you to use the grandMA3 Software witho
 - At Menu
 - Run Commands
 - Toggle Executor Buttons (100/200/300/400)
+- Call Object by DataPool/Name (any object type, picked from dropdowns)
 - Feedback: sequence running / cue / fader / held / paused, resync, manual state override

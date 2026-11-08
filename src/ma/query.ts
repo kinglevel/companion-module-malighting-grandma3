@@ -34,8 +34,8 @@ export interface QueryHandlers {
 	onMap(map: ReadonlyMap<string, string>, faderRange: number): void
 	/** `sentAt`: when the query was sent (fresher OSC events win over the result) */
 	onRecord(rec: SeqRecord, sentAt: number): void
-	/** Name catalog entries from a full sync. Kind `DataPools` = the pools themselves (no = DataPool). */
-	onCatalog?(entries: ReadonlyArray<{ kind: string; dataPool: number; no: number; name: string }>): void
+	/** Name catalog entries from a full sync. Kind `DataPools` = the pools themselves (id = DataPool number). */
+	onCatalog?(entries: ReadonlyArray<{ kind: string; dataPool: number; id: string; name: string }>): void
 	/** A full sync finished: `running` holds the keys of every running sequence in the show */
 	onSyncComplete(running: ReadonlySet<string>, sentAt: number): void
 	onStatus(status: QueryStatus): void
@@ -173,12 +173,12 @@ export class QueryEngine {
 			case 'cat': {
 				if (f.kind !== 'sync' || typeof args[1] !== 'string') break
 				const kind = args[1]
-				const entries: { kind: string; dataPool: number; no: number; name: string }[] = []
+				const entries: { kind: string; dataPool: number; id: string; name: string }[] = []
 				for (let i = 2; i + 2 < args.length; i += 3) {
-					const [dp, no, name] = [args[i], args[i + 1], args[i + 2]]
-					if (typeof dp !== 'number' || typeof no !== 'number' || typeof name !== 'string') break
-					if (!Number.isInteger(dp) || !Number.isInteger(no) || dp < 1 || no < 1) continue
-					entries.push({ kind, dataPool: dp, no, name })
+					const [dp, id, name] = [args[i], args[i + 1], args[i + 2]]
+					if (typeof dp !== 'number' || typeof id !== 'string' || typeof name !== 'string') break
+					if (!Number.isInteger(dp) || dp < 1 || !/^\d{1,9}(\.\d{1,9})?$/.test(id)) continue
+					entries.push({ kind, dataPool: dp, id, name })
 				}
 				if (entries.length > 0) this.#h.onCatalog?.(entries)
 				break

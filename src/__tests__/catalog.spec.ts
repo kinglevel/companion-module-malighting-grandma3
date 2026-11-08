@@ -103,13 +103,18 @@ describe('names through the engine', () => {
 		engine.watches.set('fbX', '?', true) // a feedback waiting for a name
 		engine.watches.set('fbNum', '1.1') // addressed by number: unaffected by name changes
 		const sync = id()
-		reply('cat', 'isiis', sync, 'DataPools', 125, 125, 'Show')
-		reply('cat', 'is' + 'iis'.repeat(2), sync, 'Sequences', 125, 212, 'FR P1', 125, 76, 'BUMP')
+		reply('cat', 'isiss', sync, 'DataPools', 125, '125', 'Show')
+		reply('cat', 'is' + 'iss'.repeat(2), sync, 'Sequences', 125, '212', 'FR P1', 125, '76', 'BUMP')
+		reply('cat', 'isiss', sync, 'PresetPools', 125, '4.1', 'White')
 		reply('end', 'isii', sync, 'sync', 0, 2)
 		vi.advanceTimersByTime(60)
 		expect(checked.flat()).toContain('fbX')
 		expect(checked.flat()).not.toContain('fbNum')
 		expect(engine.resolve('Show', 'FR P1')).toEqual({ ok: true, ref: { dataPool: 125, sequence: 212 } })
+		expect(engine.resolveObject('PresetPools', 'Show', 'white')).toEqual({
+			ok: true,
+			ref: { dataPool: 125, id: '4.1' },
+		})
 	})
 
 	it('learns sequence names from MA feedback (renames included)', () => {

@@ -9,7 +9,13 @@
 import type { CompanionVariableDefinition, CompanionVariableValues } from '@companion-module/base'
 import type { OscMessage } from '../osc/codec.js'
 import { AddressMap } from '../ma/addressMap.js'
-import { isCatalogKind, NameCatalog, type CatalogKind, type ResolveResult } from '../ma/catalog.js'
+import {
+	isCatalogKind,
+	NameCatalog,
+	type CatalogKind,
+	type ResolveObjectResult,
+	type ResolveResult,
+} from '../ma/catalog.js'
 import { decodeMaMessage, splitLegacyName, type FaderEvent, type KeyEvent } from '../ma/messages.js'
 import { QueryEngine, type QueryStatus, type SeqRecord } from '../ma/query.js'
 import { SequenceStore, sequenceKey, type SequenceState, type Tri } from '../ma/sequences.js'
@@ -185,9 +191,9 @@ export class FeedbackEngine {
 				onCatalog: (entries) => {
 					let changed = false
 					for (const e of entries) {
-						if (e.kind === 'DataPools') changed = this.catalog.setDataPool(e.no, e.name) || changed
+						if (e.kind === 'DataPools') changed = this.catalog.setDataPool(e.dataPool, e.name) || changed
 						else if (isCatalogKind(e.kind))
-							changed = this.catalog.setObject(e.kind, e.dataPool, e.no, e.name) || changed
+							changed = this.catalog.setObject(e.kind, e.dataPool, e.id, e.name) || changed
 					}
 					if (changed) this.#recheckNamed()
 				},
@@ -265,17 +271,26 @@ export class FeedbackEngine {
 	 * Resolve user input (numbers or names) to a sequence. An unknown name asks for a catalog refresh
 	 * (rate limited, because it is a visible command in MA); feedbacks re-run when names change.
 	 */
-	resolve(dataPoolRaw: string, sequenceRaw: string, kind: CatalogKind = 'Sequences'): ResolveResult {
-		const r = this.catalog.resolveObject(kind, dataPoolRaw, sequenceRaw)
-		if (!r.ok && r.reason !== 'empty' && this.#query?.status === 'ready') {
-			const now = Date.now()
-			if (now - this.#lastNameRefresh >= NAME_REFRESH_MS) {
-				this.#lastNameRefresh = now
-				this.#host.log('debug', `Unknown name (${r.reason}): refreshing the name catalog`)
-				this.#query.start()
-			}
-		}
+	resolve(dataPoolRaw: string, sequenceRaw: string): ResolveResult {
+		const r = this.catalog.resolve(dataPoolRaw, sequenceRaw)
+		if (!r.ok) this.#maybeRefreshNames(r.reason)
 		return r
+	}
+
+	/** Same as resolve() for any object type in the catalog (Groups, Presets, ...). */
+	resolveObject(kind: CatalogKind, dataPoolRaw: string, objectRaw: string): ResolveObjectResult {
+		const r = this.catalog.resolveObject(kind, dataPoolRaw, objectRaw)
+		if (!r.ok) this.#maybeRefreshNames(r.reason)
+		return r
+	}
+
+	#maybeRefreshNames(reason: string): void {
+		if (reason === 'empty' || this.#query?.status !== 'ready') return
+		const now = Date.now()
+		if (now - this.#lastNameRefresh < NAME_REFRESH_MS) return
+		this.#lastNameRefresh = now
+		this.#host.log('debug', `Unknown name (${reason}): refreshing the name catalog`)
+		this.#query.start()
 	}
 
 	getSequence(dataPool: number, sequence: number): SequenceState | undefined {
@@ -303,7 +318,7 @@ export class FeedbackEngine {
 			if (CUE_LANDING.has(ev.func)) this.#legacyNames = true
 			if (this.#legacyNames && ev.seq.name.includes(' ')) {
 				const known =
-					this.catalog.listObjects('Sequences', ev.seq.dataPool).find((o) => o.no === ev.seq!.sequence)?.name ??
+					this.catalog.objectName('Sequences', ev.seq.dataPool, String(ev.seq.sequence)) ??
 					this.store.get(ev.seq.dataPool, ev.seq.sequence)?.name
 				const split = splitLegacyName(ev.seq.name, known)
 				learnName = split.confident

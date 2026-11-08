@@ -1,6 +1,14 @@
 import type { ModuleInstance } from './main.js'
 import type { Tri } from './ma/sequences.js'
-import { buildPickerFields, resolvePicker, SEQUENCE_PICKER } from './picker/objectPicker.js'
+import {
+	buildObjectPickerFields,
+	buildPickerFields,
+	objectPickerValues,
+	readObjectPicker,
+	resolvePicker,
+	SEQUENCE_PICKER,
+} from './picker/objectPicker.js'
+import { buildObjectCommand, CALL_FUNCTIONS, FUNCTION_PATTERN } from './ma/commands.js'
 
 export function UpdateActions(self: ModuleInstance): void {
 	// Arguments stay loosely typed: the executor action sends a `T` (true) argument, which Companion's
@@ -499,6 +507,41 @@ export function UpdateActions(self: ModuleInstance): void {
 						},
 					])
 				}
+			},
+		},
+		call_object: {
+			name: 'Call Object by DataPool/Name',
+			description:
+				'Pick the DataPool, the object type and the object, then the function to run on it, e.g. Go+ DataPool 125 Sequence "FR P1". Lists come from grandMA3 when feedback with Lua queries is on; you can always type a number or name into the dropdowns.',
+			options: [
+				...buildObjectPickerFields(self.engine?.catalog),
+				{
+					type: 'dropdown',
+					id: 'function',
+					label: 'Function',
+					choices: CALL_FUNCTIONS.map((f) => ({ id: f, label: f })),
+					default: 'Go+',
+					allowCustom: true,
+					regex: FUNCTION_PATTERN.toString(),
+					tooltip: 'Pick a function or type another command keyword (letters, + and - only).',
+				},
+			],
+			learn: () => {
+				const last = self.engine?.lastSequence
+				if (!last) return undefined
+				return objectPickerValues(last.dataPool, 'Sequences', String(last.sequence))
+			},
+			callback: async (event) => {
+				const parse = async (t: string) => self.parseVariablesInString(t)
+				const { kind, dataPoolRaw, objectRaw } = await readObjectPicker(event.options, self.engine?.catalog, parse)
+				const fn = await parse(String(event.options.function ?? 'Go+'))
+				const built = buildObjectCommand(fn, kind, dataPoolRaw, objectRaw)
+				if (!built.ok) {
+					self.log('error', `Call Object: ${built.error}`)
+					return
+				}
+				self.log('debug', `Call Object: ${built.command}`)
+				sendOscMessage('/cmd', [{ type: 's', value: built.command }])
 			},
 		},
 		feedback_resync: {
