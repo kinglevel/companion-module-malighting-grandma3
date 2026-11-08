@@ -1,0 +1,661 @@
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Go+", "address": "/14.14.1.7.1", "types": "sis", "args": ["Go+", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Go-", "address": "/14.14.1.7.1", "types": "sis", "args": ["Go-", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Top", "address": "/14.14.1.7.1", "types": "sis", "args": ["Top", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|GoFastForward >>>", "address": "/14.14.1.7.1", "types": "sis", "args": [">>>", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|GoFastBackward <<<", "address": "/14.14.1.7.1", "types": "sis", "args": ["<<<", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|On", "address": "/14.14.1.7.1", "types": "sis", "args": ["On", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Off", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Toggle on", "address": "/14.14.1.7.1", "types": "sis", "args": ["Toggle", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Toggle off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Toggle", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Flash On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Flash", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Flash On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Flash", 0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Temp On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Temp", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Temp On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Temp", 0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Black On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Black", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Black On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Black", 0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Pause", "address": "/14.14.1.7.1", "types": "sis", "args": ["Go+", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Pause", "address": "/14.14.1.7.1", "types": "sis", "args": ["Pause", 2, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Learn", "address": "/14.14.1.7.1", "types": "sis", "args": ["Learn", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|ReSync", "address": "/14.14.1.7.1", "types": "sis", "args": ["ReSync", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FastSync", "address": "/14.14.1.7.1", "types": "sis", "args": ["FastSync", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|DoubleSpeed", "address": "/14.14.1.7.1", "types": "sis", "args": ["DoubleSpeed", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|HalfSpeed", "address": "/14.14.1.7.1", "types": "sis", "args": ["HalfSpeed", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Rate1", "address": "/14.14.1.7.1", "types": "sis", "args": ["Rate1", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Speed1", "address": "/14.14.1.7.1", "types": "sis", "args": ["Speed1", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Time", "address": "/14.14.1.7.1", "types": "sis", "args": ["Time", 2, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Time", "address": "/14.14.1.7.1", "types": "sis", "args": ["Time", 2, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Kill", "address": "/14.14.1.7.1", "types": "sis", "args": ["Kill", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.127.7.151", "types": "sis", "args": ["Off", 1, "Worklight"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.127.7.152", "types": "sis", "args": ["Off", 1, "Houselight"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.92", "types": "sis", "args": ["Off", 1, "ENV_Backstage"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.93", "types": "sis", "args": ["Off", 1, "ENV_3"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.91", "types": "sis", "args": ["Off", 1, "ENV_EXPO"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.496", "types": "sis", "args": ["Off", 1, "GFX Flurp"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.151", "types": "sis", "args": ["Off", 1, "Desk 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.152", "types": "sis", "args": ["Off", 1, "Desk 2"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.153", "types": "sis", "args": ["Off", 1, "Desk 3"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.154", "types": "sis", "args": ["Off", 1, "Desk 4"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.155", "types": "sis", "args": ["Off", 1, "Desk 5"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.220", "types": "sis", "args": ["Off", 1, "Casters Front"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.271", "types": "sis", "args": ["Off", 1, "Front players"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.436", "types": "sis", "args": ["Off", 1, "AUD W"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.437", "types": "sis", "args": ["Off", 1, "AUD Sin"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.438", "types": "sis", "args": ["Off", 1, "AUD Mov"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.125.7.46", "types": "sis", "args": ["Off", 1, "Takeover"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.1.7.1", "types": "sis", "args": ["Off", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderMaster 50", "address": "/14.14.125.7.586", "types": "sis", "args": ["Off", 1, "Kinetic Balls"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderMaster 50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderMaster 100", "address": "/14.14.125.7.587", "types": "sis", "args": ["Off", 1, "Kinetic Rings"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderMaster 100", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderMaster +10 (relative)", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 0.000101, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderMaster 100 restore", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderCrossFade 50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderCrossFade", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderCrossFade 0", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderCrossFade", 1, 0.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderCrossFadeA 50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderCrossFadeA", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderCrossFadeB 50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderCrossFadeB", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderTemp 50/0", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderTemp", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderTemp 50/0", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderTemp", 1, 0.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderRate 75/50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderRate", 1, 42.998188, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderRate 75/50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderRate", 1, 34.762054, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderSpeed 75/50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderSpeed", 1, 75.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderSpeed 75/50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderSpeed", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderTime 50/0", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderTime", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|FaderTime 50/0", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderTime", 1, 0.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "sequence|Sequence 1|Off (end)", "address": "/14.14.1.7.1", "types": "sis", "args": ["Off", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "executor|Page 1.202|Go+ via executor", "address": "/14.14.125.7.213", "types": "sis", "args": ["Go+", 1, "FR P2;1 [Fronts/P1]"]}
+{"src": "matrix1.jsonl", "step": "executor|Page 1.202|Flash via executor", "address": "/14.14.125.7.213", "types": "sis", "args": ["Flash", 1, "FR P2"]}
+{"src": "matrix1.jsonl", "step": "executor|Page 1.202|Flash via executor", "address": "/14.14.125.7.213", "types": "sis", "args": ["Flash", 0, "FR P2"]}
+{"src": "matrix1.jsonl", "step": "executor|Page 1.202|FaderMaster 50 via executor", "address": "/14.14.125.7.213", "types": "sifs", "args": ["FaderMaster", 1, 50.0, "FR P2"]}
+{"src": "matrix1.jsonl", "step": "executor|Page 1.202|FaderMaster 100 via executor", "address": "/14.14.125.7.213", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "FR P2"]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|Flash On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|Flash On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|Temp On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|Temp On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|Black On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|Black On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|FaderMaster 50", "address": "/14.14.1.6.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "group|Group 1|FaderMaster 100", "address": "/14.14.1.6.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|On", "address": "/14.14.1.5.1.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Toggle on", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Toggle off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Flash On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Flash On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Temp On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Temp On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Pause", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Learn", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Learn", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|DoubleSpeed", "address": "/14.14.1.5.1.1", "types": "si", "args": ["DoubleSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|HalfSpeed", "address": "/14.14.1.5.1.1", "types": "si", "args": ["HalfSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Speed1", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Speed1", 1]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|FaderMaster 50", "address": "/14.14.1.5.1.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|FaderMaster 100", "address": "/14.14.1.5.1.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "preset|Preset 1.1|Off (end)", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|FaderMaster 50", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 50.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|FaderMaster 100", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Flash On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Flash", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Flash On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Flash", 0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Black On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Black", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Black On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Black", 0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Learn", "address": "/14.14.1.7.1", "types": "sis", "args": ["Learn", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|DoubleSpeed", "address": "/14.14.1.7.1", "types": "sis", "args": ["DoubleSpeed", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|HalfSpeed", "address": "/14.14.1.7.1", "types": "sis", "args": ["HalfSpeed", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Speed1", "address": "/14.14.1.7.1", "types": "sis", "args": ["Speed1", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Rate1", "address": "/14.14.1.7.1", "types": "sis", "args": ["Rate1", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|On", "address": "/14.14.1.7.1", "types": "sis", "args": ["On", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Off", 1, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Toggle", "address": "/14.14.1.7.1", "types": "sis", "args": ["Toggle", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|Toggle", "address": "/14.14.1.7.1", "types": "sis", "args": ["Toggle", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 1.1|restore 100", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "Sequence 1"]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|FaderMaster 50", "address": "/14.13.2.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|FaderMaster 100", "address": "/14.13.2.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Flash On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Flash On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Black On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Black On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Learn", "address": "/14.13.2.1", "types": "si", "args": ["Learn", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|DoubleSpeed", "address": "/14.13.2.1", "types": "si", "args": ["DoubleSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|HalfSpeed", "address": "/14.13.2.1", "types": "si", "args": ["HalfSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Speed1", "address": "/14.13.2.1", "types": "si", "args": ["Speed1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Rate1", "address": "/14.13.2.1", "types": "si", "args": ["Rate1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|On", "address": "/14.13.2.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Off", "address": "/14.13.2.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Toggle", "address": "/14.13.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|Toggle", "address": "/14.13.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 2.1|restore 100", "address": "/14.13.2.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|FaderMaster 50", "address": "/14.13.3.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|FaderMaster 100", "address": "/14.13.3.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Flash On/Off", "address": "/14.13.3.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Flash On/Off", "address": "/14.13.3.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Black On/Off", "address": "/14.13.3.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Black On/Off", "address": "/14.13.3.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Learn", "address": "/14.13.3.1", "types": "si", "args": ["Learn", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|DoubleSpeed", "address": "/14.13.3.1", "types": "si", "args": ["DoubleSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|HalfSpeed", "address": "/14.13.3.1", "types": "si", "args": ["HalfSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Speed1", "address": "/14.13.3.1", "types": "si", "args": ["Speed1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Rate1", "address": "/14.13.3.1", "types": "si", "args": ["Rate1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|On", "address": "/14.13.3.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Off", "address": "/14.13.3.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Toggle", "address": "/14.13.3.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|Toggle", "address": "/14.13.3.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 3.1|restore 50", "address": "/14.13.3.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|FaderMaster 50", "address": "/14.13.4.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|FaderMaster 100", "address": "/14.13.4.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Flash On/Off", "address": "/14.13.4.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Flash On/Off", "address": "/14.13.4.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Black On/Off", "address": "/14.13.4.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Black On/Off", "address": "/14.13.4.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Learn", "address": "/14.13.4.1", "types": "si", "args": ["Learn", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|DoubleSpeed", "address": "/14.13.4.1", "types": "si", "args": ["DoubleSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|HalfSpeed", "address": "/14.13.4.1", "types": "si", "args": ["HalfSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Speed1", "address": "/14.13.4.1", "types": "si", "args": ["Speed1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Rate1", "address": "/14.13.4.1", "types": "si", "args": ["Rate1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|On", "address": "/14.13.4.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Off", "address": "/14.13.4.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Toggle", "address": "/14.13.4.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|Toggle", "address": "/14.13.4.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 4.1|restore 0", "address": "/14.13.4.1", "types": "sif", "args": ["FaderMaster", 1, 0.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|FaderMaster 50", "address": "/14.13.5.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|FaderMaster 100", "address": "/14.13.5.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Flash On/Off", "address": "/14.13.5.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Flash On/Off", "address": "/14.13.5.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Black On/Off", "address": "/14.13.5.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Black On/Off", "address": "/14.13.5.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Learn", "address": "/14.13.5.1", "types": "si", "args": ["Learn", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|DoubleSpeed", "address": "/14.13.5.1", "types": "si", "args": ["DoubleSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|HalfSpeed", "address": "/14.13.5.1", "types": "si", "args": ["HalfSpeed", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Speed1", "address": "/14.13.5.1", "types": "si", "args": ["Speed1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Rate1", "address": "/14.13.5.1", "types": "si", "args": ["Rate1", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|On", "address": "/14.13.5.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Off", "address": "/14.13.5.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Toggle", "address": "/14.13.5.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|Toggle", "address": "/14.13.5.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "masters|Master 5.1|restore 0", "address": "/14.13.5.1", "types": "sif", "args": ["FaderMaster", 1, 0.0]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|Go+ (start)", "address": "/14.14.1.16.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|Pause", "address": "/14.14.1.16.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|On", "address": "/14.14.1.16.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|Toggle", "address": "/14.14.1.16.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|Top (reset)", "address": "/14.14.1.16.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|FaderMaster 50", "address": "/14.14.1.16.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "timer|Timer 1|FaderMaster 100", "address": "/14.14.1.16.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|Go+", "address": "/14.2.6.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|On", "address": "/14.2.6.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|Off", "address": "/14.2.6.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|Toggle", "address": "/14.2.6.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|Toggle", "address": "/14.2.6.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|Flash On/Off", "address": "/14.2.6.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|Flash On/Off", "address": "/14.2.6.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|FaderMaster 50", "address": "/14.2.6.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|FaderMaster 100", "address": "/14.2.6.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix1.jsonl", "step": "sound|Sound 1|Off (end)", "address": "/14.2.6.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Go+ 1", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;1 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Go+ 2", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;2 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Go+ 3", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;3 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Go+ wraps/end", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;1 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Go- ", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go-", 1, "OSCTest;3 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Goto Cue 2", "address": "/14.14.1.7.999", "types": "sis", "args": ["Goto", 1, "OSCTest;2 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Goto Cue 3", "address": "/14.14.1.7.999", "types": "sis", "args": ["Goto", 1, "OSCTest;3 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Load Cue 1", "address": "/14.14.1.7.999", "types": "sis", "args": ["Load", 1, "OSCTest;1 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Go+ after Load", "address": "/14.14.1.7.999", "types": "sis", "args": ["Goto", 1, "OSCTest;1 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Top", "address": "/14.14.1.7.999", "types": "sis", "args": ["Top", 1, "OSCTest;1 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Pause on", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;2 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Pause on", "address": "/14.14.1.7.999", "types": "sis", "args": ["Pause", 2, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Pause again (resume?)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Pause", 2, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Flash plain (no On/Off)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Flash", 1, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Temp plain (no On/Off)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Temp", 1, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Time on/off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Time", 1, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Time on/off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Time", 0, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Go+ Cue 2 (Go+ with cue)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;2 Cue"]}
+{"src": "matrix2.jsonl", "step": "sequence999|Sequence 999|Off end", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix2.jsonl", "step": "objects|-|Group 1 Go+", "address": "/14.14.1.6.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix2.jsonl", "step": "sendosc|-|SendOSC 8 (our entry)", "address": "/manual/test", "types": "is", "args": [42, "hello"]}
+{"src": "matrix2.jsonl", "step": "cleanup|-|Off Sequence 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "swap|Swap On/Off seq", "address": "/14.14.1.7.999", "types": "sis", "args": ["Swap", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "swap|Swap On/Off seq", "address": "/14.14.1.7.999", "types": "sis", "args": ["Swap", 0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "swap|Swap On/Off group", "address": "/14.14.1.6.1", "types": "si", "args": ["Swap", 1]}
+{"src": "matrix3.jsonl", "step": "swap|Swap On/Off group", "address": "/14.14.1.6.1", "types": "si", "args": ["Swap", 0]}
+{"src": "matrix3.jsonl", "step": "swap|Off seq", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "sendosc|float", "address": "/manual/f", "types": "f", "args": [1.5]}
+{"src": "matrix3.jsonl", "step": "sendosc|multi s,i,f", "address": "/manual/m", "types": "sif", "args": ["abc", 7, 2.25]}
+{"src": "matrix3.jsonl", "step": "oscdata|baseline fader 50", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 50.0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "oscdata|Prefix=oscfb", "address": "/oscfb/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 59.999996, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "oscdata|Prefix=oscfb", "address": "/oscfb/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;1 Cue"]}
+{"src": "matrix3.jsonl", "step": "oscdata|Prefix=oscfb", "address": "/oscfb/manual/prefixed", "types": "i", "args": [1]}
+{"src": "matrix3.jsonl", "step": "oscdata|FaderRange=255", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 127.499992, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "oscdata|FaderRange=255", "address": "/14.14.1.6.1", "types": "sif", "args": ["FaderMaster", 1, 127.499992]}
+{"src": "matrix3.jsonl", "step": "oscdata|FaderRange=255", "address": "/14.14.1.6.1", "types": "sif", "args": ["FaderMaster", 1, 254.999985]}
+{"src": "matrix3.jsonl", "step": "oscdata|FaderRange=1", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 0.25, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "oscdata|FaderRange restore 100", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "oscdata|Fader name=Fdr", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 40.0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "oscdata|Fader name restore", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "oscdata|Send=No", "address": "/manual/sendoff", "types": "i", "args": [1]}
+{"src": "matrix3.jsonl", "step": "oscdata|Send restore", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;1 Cue"]}
+{"src": "matrix3.jsonl", "step": "oscdata|SendCommand=No", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;2 Cue"]}
+{"src": "matrix3.jsonl", "step": "oscdata|SendCommand restore", "address": "/manual/cmdon", "types": "i", "args": [1]}
+{"src": "matrix3.jsonl", "step": "oscdata|Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Go+", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "OSCTest;1 Cue"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|On", "address": "/14.14.1.7.999", "types": "sis", "args": ["On", 1, "OSCTest;1 Cue"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Toggle", "address": "/14.14.1.7.999", "types": "sis", "args": ["Toggle", 1, "OSCTest;1 Cue"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Toggle", "address": "/14.14.1.7.999", "types": "sis", "args": ["Toggle", 1, "OSCTest;1 Cue"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Flash On/Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Flash", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Flash On/Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Flash", 0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Temp On/Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Temp", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Temp On/Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Temp", 0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Black On/Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Black", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Black On/Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Black", 0, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Sequence 999|Off end", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Go+", "address": "/14.14.1.6.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|On", "address": "/14.14.1.6.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Toggle", "address": "/14.14.1.6.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Toggle", "address": "/14.14.1.6.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Flash On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Flash On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Temp On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Temp On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Black On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Black On/Off", "address": "/14.14.1.6.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|FaderMaster 50", "address": "/14.14.1.6.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|FaderMaster 100", "address": "/14.14.1.6.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix3.jsonl", "step": "exec Group 1|Off end", "address": "/14.14.1.6.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Go+", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|On", "address": "/14.14.1.5.1.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Toggle", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Toggle", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Flash On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Flash On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Temp On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Temp On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Black On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Black On/Off", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|FaderMaster 50", "address": "/14.14.1.5.1.1", "types": "sif", "args": ["FaderTemp", 1, 50.0]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|FaderMaster 100", "address": "/14.14.1.5.1.1", "types": "sif", "args": ["FaderTemp", 1, 100.0]}
+{"src": "matrix3.jsonl", "step": "exec Preset 1.1|Off end", "address": "/14.14.1.5.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Go+", "address": "/14.13.2.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|On", "address": "/14.13.2.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Off", "address": "/14.13.2.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Toggle", "address": "/14.13.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Toggle", "address": "/14.13.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Flash On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Flash On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Temp On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Temp On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Black On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Black On/Off", "address": "/14.13.2.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|FaderMaster 50", "address": "/14.13.2.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|FaderMaster 100", "address": "/14.13.2.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix3.jsonl", "step": "exec Master 2.1|Off end", "address": "/14.13.2.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Go+", "address": "/14.14.1.16.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|On", "address": "/14.14.1.16.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Toggle", "address": "/14.14.1.16.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Toggle", "address": "/14.14.1.16.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Flash On/Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Flash On/Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Temp On/Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Temp On/Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Black On/Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Black On/Off", "address": "/14.14.1.16.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix3.jsonl", "step": "exec Timer 1|Off end", "address": "/14.14.1.16.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Go+", "address": "/14.14.1.1.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|On", "address": "/14.14.1.1.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Off", "address": "/14.14.1.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Toggle", "address": "/14.14.1.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Toggle", "address": "/14.14.1.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Flash On/Off", "address": "/14.14.1.1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Flash On/Off", "address": "/14.14.1.1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Temp On/Off", "address": "/14.14.1.1.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Temp On/Off", "address": "/14.14.1.1.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Black On/Off", "address": "/14.14.1.1.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Black On/Off", "address": "/14.14.1.1.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix3.jsonl", "step": "exec World 1|FaderMaster 50", "address": "/14.14.1.1.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix3.jsonl", "step": "exec World 1|FaderMaster 100", "address": "/14.14.1.1.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix3.jsonl", "step": "exec World 1|Off end", "address": "/14.14.1.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Go+", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|On", "address": "/14.14.1.8.999.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Toggle", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Call", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Toggle", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Call", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Flash On/Off", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Flash On/Off", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Temp On/Off", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Temp On/Off", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Black On/Off", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Black", 1]}
+{"src": "matrix3.jsonl", "step": "exec Plugin 999|Black On/Off", "address": "/14.14.1.8.999.1", "types": "si", "args": ["Black", 0]}
+{"src": "matrix3.jsonl", "step": "exec ScreenConfig 1|Go+", "address": "/14.19.1.11.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix3.jsonl", "step": "restore|ClearAll / Grand 100", "address": "/14.13.2.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix3.jsonl", "step": "cleanup|Off Sequence 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "OSCTest"]}
+{"src": "matrix4.jsonl", "step": "ui|cmd restore grand 100", "address": "/14.13.2.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Go+", "address": "/14.20.2", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Go-", "address": "/14.20.2", "types": "si", "args": ["Go-", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|On", "address": "/14.20.2", "types": "si", "args": ["On", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Off", "address": "/14.20.2", "types": "si", "args": ["Off", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Toggle", "address": "/14.20.2", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Top", "address": "/14.20.2", "types": "si", "args": ["Top", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Pause", "address": "/14.20.2", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Flash On/Off", "address": "/14.20.2", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Flash On/Off", "address": "/14.20.2", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Temp On/Off", "address": "/14.20.2", "types": "si", "args": ["Temp", 1]}
+{"src": "matrix4.jsonl", "step": "exec User 2|Temp On/Off", "address": "/14.20.2", "types": "si", "args": ["Temp", 0]}
+{"src": "matrix4.jsonl", "step": "tcp|restore UDP :8001", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "Sequence 999"]}
+{"src": "matrix4.jsonl", "step": "cleanup|Off Sequence 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "Sequence 999"]}
+{"src": "matrix5.jsonl", "step": "timecode|Go+", "address": "/14.14.1.15.999", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix5.jsonl", "step": "timecode|On", "address": "/14.14.1.15.999", "types": "si", "args": ["On", 1]}
+{"src": "matrix5.jsonl", "step": "timecode|Off", "address": "/14.14.1.15.999", "types": "si", "args": ["Off", 1]}
+{"src": "matrix5.jsonl", "step": "timecode|Toggle", "address": "/14.14.1.15.999", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix5.jsonl", "step": "timecode|Toggle", "address": "/14.14.1.15.999", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix5.jsonl", "step": "timecode|Pause", "address": "/14.14.1.15.999", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix5.jsonl", "step": "timecode|Top", "address": "/14.14.1.15.999", "types": "si", "args": ["Top", 1]}
+{"src": "matrix5.jsonl", "step": "timecode|Flash On/Off", "address": "/14.14.1.15.999", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix5.jsonl", "step": "timecode|Flash On/Off", "address": "/14.14.1.15.999", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix5.jsonl", "step": "timecode|FaderMaster 50", "address": "/14.14.1.15.999", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix5.jsonl", "step": "timecode|Off end", "address": "/14.14.1.15.999", "types": "si", "args": ["Off", 1]}
+{"src": "matrix5.jsonl", "step": "layout|Go+", "address": "/14.14.1.14.999", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix5.jsonl", "step": "layout|On", "address": "/14.14.1.14.999", "types": "si", "args": ["On", 1]}
+{"src": "matrix5.jsonl", "step": "layout|Off", "address": "/14.14.1.14.999", "types": "si", "args": ["Off", 1]}
+{"src": "matrix5.jsonl", "step": "layout|Toggle", "address": "/14.14.1.14.999", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix5.jsonl", "step": "layout|Toggle", "address": "/14.14.1.14.999", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix5.jsonl", "step": "layout|Pause", "address": "/14.14.1.14.999", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix5.jsonl", "step": "layout|Top", "address": "/14.14.1.14.999", "types": "si", "args": ["Top", 1]}
+{"src": "matrix5.jsonl", "step": "layout|Flash On/Off", "address": "/14.14.1.14.999", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix5.jsonl", "step": "layout|Flash On/Off", "address": "/14.14.1.14.999", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix5.jsonl", "step": "layout|FaderMaster 50", "address": "/14.14.1.14.999", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix5.jsonl", "step": "layout|Off end", "address": "/14.14.1.14.999", "types": "si", "args": ["Off", 1]}
+{"src": "matrix5.jsonl", "step": "filter|Go+", "address": "/14.14.1.2.999", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix5.jsonl", "step": "filter|Pause", "address": "/14.14.1.2.999", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix5.jsonl", "step": "filter|Top", "address": "/14.14.1.2.999", "types": "si", "args": ["Top", 1]}
+{"src": "matrix5.jsonl", "step": "filter|Flash On/Off", "address": "/14.14.1.2.999", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix5.jsonl", "step": "filter|Flash On/Off", "address": "/14.14.1.2.999", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix5.jsonl", "step": "filter|FaderMaster 50", "address": "/14.14.1.2.999", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix5.jsonl", "step": "matricks|Go+", "address": "/14.14.1.11.999", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix5.jsonl", "step": "matricks|On", "address": "/14.14.1.11.999", "types": "si", "args": ["On", 1]}
+{"src": "matrix5.jsonl", "step": "matricks|Off", "address": "/14.14.1.11.999", "types": "si", "args": ["Off", 1]}
+{"src": "matrix5.jsonl", "step": "matricks|Toggle", "address": "/14.14.1.11.999", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix5.jsonl", "step": "matricks|Toggle", "address": "/14.14.1.11.999", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix5.jsonl", "step": "matricks|Pause", "address": "/14.14.1.11.999", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix5.jsonl", "step": "matricks|Top", "address": "/14.14.1.11.999", "types": "si", "args": ["Top", 1]}
+{"src": "matrix5.jsonl", "step": "matricks|Flash On/Off", "address": "/14.14.1.11.999", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix5.jsonl", "step": "matricks|Flash On/Off", "address": "/14.14.1.11.999", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix5.jsonl", "step": "matricks|FaderMaster 50", "address": "/14.14.1.11.999", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix5.jsonl", "step": "matricks|Off end", "address": "/14.14.1.11.999", "types": "si", "args": ["Off", 1]}
+{"src": "matrix5.jsonl", "step": "handle|Lua SetFader on Sequence 999", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 40.0, "Sequence 999"]}
+{"src": "matrix5.jsonl", "step": "handle|Lua Cmd FaderMaster", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 29.999996, "Sequence 999"]}
+{"src": "matrix5.jsonl", "step": "handle|Macro-driven fader", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 20.0, "Sequence 999"]}
+{"src": "matrix5.jsonl", "step": "handle|FaderMaster with fade 1s", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 80.0, "Sequence 999"]}
+{"src": "matrix5.jsonl", "step": "handle|FaderMaster with fade 1s", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 80.0, "Sequence 999"]}
+{"src": "matrix5.jsonl", "step": "cleanup|Off Sequence 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "Sequence 999"]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Go+", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Generator 1|On", "address": "/14.14.1.3.2.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Off", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Toggle x2", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Toggle x2", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Pause", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Top", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Flash On/Off", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Flash On/Off", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Generator 1|FaderMaster 50/100", "address": "/14.14.1.3.2.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Generator 1|FaderMaster 50/100", "address": "/14.14.1.3.2.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Generator 1|Off end", "address": "/14.14.1.3.2.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Go+", "address": "/14.14.1.4.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|On", "address": "/14.14.1.4.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Off", "address": "/14.14.1.4.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Toggle x2", "address": "/14.14.1.4.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Toggle x2", "address": "/14.14.1.4.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Pause", "address": "/14.14.1.4.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Top", "address": "/14.14.1.4.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Flash On/Off", "address": "/14.14.1.4.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Flash On/Off", "address": "/14.14.1.4.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Shape 1|FaderMaster 50/100", "address": "/14.14.1.4.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Shape 1|FaderMaster 50/100", "address": "/14.14.1.4.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Shape 1|Off end", "address": "/14.14.1.4.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Go+", "address": "/14.14.1.12.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|On", "address": "/14.14.1.12.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Off", "address": "/14.14.1.12.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Toggle x2", "address": "/14.14.1.12.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Toggle x2", "address": "/14.14.1.12.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Pause", "address": "/14.14.1.12.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Top", "address": "/14.14.1.12.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Flash On/Off", "address": "/14.14.1.12.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Flash On/Off", "address": "/14.14.1.12.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|FaderMaster 50/100", "address": "/14.14.1.12.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|FaderMaster 50/100", "address": "/14.14.1.12.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Configuration 1|Off end", "address": "/14.14.1.12.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Go+", "address": "/14.2.1.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|On", "address": "/14.2.1.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Off", "address": "/14.2.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Toggle x2", "address": "/14.2.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Toggle x2", "address": "/14.2.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Pause", "address": "/14.2.1.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Top", "address": "/14.2.1.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Flash On/Off", "address": "/14.2.1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Flash On/Off", "address": "/14.2.1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|FaderMaster 50/100", "address": "/14.2.1.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|FaderMaster 50/100", "address": "/14.2.1.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Gobo 1|Off end", "address": "/14.2.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|Go+", "address": "/", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|On", "address": "/", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|Off", "address": "/", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|Toggle x2", "address": "/", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|Toggle x2", "address": "/", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|Pause", "address": "/", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Image 1|Top", "address": "/", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|Flash On/Off", "address": "/", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Image 1|Flash On/Off", "address": "/", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Image 1|FaderMaster 50/100", "address": "/", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Image 1|FaderMaster 50/100", "address": "/", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Image 1|Off end", "address": "/", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|Go+", "address": "/14.2.5.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|On", "address": "/14.2.5.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|Off", "address": "/14.2.5.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|Toggle x2", "address": "/14.2.5.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|Toggle x2", "address": "/14.2.5.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|Pause", "address": "/14.2.5.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Video 1|Top", "address": "/14.2.5.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|Flash On/Off", "address": "/14.2.5.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Video 1|Flash On/Off", "address": "/14.2.5.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Video 1|FaderMaster 50/100", "address": "/14.2.5.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Video 1|FaderMaster 50/100", "address": "/14.2.5.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Video 1|Off end", "address": "/14.2.5.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Go+", "address": "/14.7.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|On", "address": "/14.7.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Off", "address": "/14.7.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Toggle x2", "address": "/14.7.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Toggle x2", "address": "/14.7.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Pause", "address": "/14.7.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Top", "address": "/14.7.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Flash On/Off", "address": "/14.7.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Flash On/Off", "address": "/14.7.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|FaderMaster 50/100", "address": "/14.7.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|FaderMaster 50/100", "address": "/14.7.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Mesh 1|Off end", "address": "/14.7.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Go+", "address": "/14.19.1.3.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|On", "address": "/14.19.1.3.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Off", "address": "/14.19.1.3.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Toggle x2", "address": "/14.19.1.3.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Toggle x2", "address": "/14.19.1.3.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Pause", "address": "/14.19.1.3.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Top", "address": "/14.19.1.3.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Flash On/Off", "address": "/14.19.1.3.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Flash On/Off", "address": "/14.19.1.3.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Camera 1|FaderMaster 50/100", "address": "/14.19.1.3.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Camera 1|FaderMaster 50/100", "address": "/14.19.1.3.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Camera 1|Off end", "address": "/14.19.1.3.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Go+", "address": "/14.3.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|On", "address": "/14.3.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Off", "address": "/14.3.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Toggle x2", "address": "/14.3.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Toggle x2", "address": "/14.3.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Pause", "address": "/14.3.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Top", "address": "/14.3.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Flash On/Off", "address": "/14.3.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Flash On/Off", "address": "/14.3.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|FaderMaster 50/100", "address": "/14.3.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|FaderMaster 50/100", "address": "/14.3.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Scribble 1|Off end", "address": "/14.3.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Go+", "address": "/14.4.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|On", "address": "/14.4.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Off", "address": "/14.4.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Toggle x2", "address": "/14.4.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Toggle x2", "address": "/14.4.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Pause", "address": "/14.4.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Top", "address": "/14.4.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Flash On/Off", "address": "/14.4.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Flash On/Off", "address": "/14.4.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|FaderMaster 50/100", "address": "/14.4.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|FaderMaster 50/100", "address": "/14.4.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Appearance 1|Off end", "address": "/14.4.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Go+", "address": "/14.6.1.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|On", "address": "/14.6.1.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Off", "address": "/14.6.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Toggle x2", "address": "/14.6.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Toggle x2", "address": "/14.6.1.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Pause", "address": "/14.6.1.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Top", "address": "/14.6.1.1", "types": "si", "args": ["Top", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Flash On/Off", "address": "/14.6.1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Flash On/Off", "address": "/14.6.1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|FaderMaster 50/100", "address": "/14.6.1.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|FaderMaster 50/100", "address": "/14.6.1.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix6.jsonl", "step": "Gel 1.1|Off end", "address": "/14.6.1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Go+", "address": "/14.14.1.7.1", "types": "sis", "args": ["Go+", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|On", "address": "/14.14.1.7.1", "types": "sis", "args": ["On", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Off", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Toggle x2", "address": "/14.14.1.7.1", "types": "sis", "args": ["Toggle", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Toggle x2", "address": "/14.14.1.7.1", "types": "sis", "args": ["Toggle", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Pause", "address": "/14.14.1.7.1", "types": "sis", "args": ["Pause", 2, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Top", "address": "/14.14.1.7.1", "types": "sis", "args": ["Top", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Flash On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Flash", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Flash On/Off", "address": "/14.14.1.7.1", "types": "sis", "args": ["Flash", 0, "Sequence 1;1 Cue"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|FaderMaster 50/100", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 0.195253, "Sequence 1"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|FaderMaster 50/100", "address": "/14.14.1.7.1", "types": "sifs", "args": ["FaderMaster", 1, 0.000101, "Sequence 1"]}
+{"src": "matrix6.jsonl", "step": "Cue 1|Off end", "address": "/14.14.1.7.1", "types": "sis", "args": ["Off", 1, "Sequence 1;1 Cue"]}
+{"src": "matrix7.jsonl", "step": "Attribute 1|Go+", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix7.jsonl", "step": "Attribute 1|Pause", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix7.jsonl", "step": "Attribute 1|Flash On/Off", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix7.jsonl", "step": "Attribute 1|Flash On/Off", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix7.jsonl", "step": "Attribute 1|FaderMaster 50/100", "address": "/14.19.1.1.1.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix7.jsonl", "step": "Attribute 1|FaderMaster 50/100", "address": "/14.19.1.1.1.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix7.jsonl", "step": "EncoderBank 1|Go+", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix7.jsonl", "step": "EncoderBank 1|Pause", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix7.jsonl", "step": "EncoderBank 1|Flash On/Off", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix7.jsonl", "step": "EncoderBank 1|Flash On/Off", "address": "/14.19.1.1.1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix7.jsonl", "step": "EncoderBank 1|FaderMaster 50/100", "address": "/14.19.1.1.1.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix7.jsonl", "step": "EncoderBank 1|FaderMaster 50/100", "address": "/14.19.1.1.1.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|Go+", "address": "/14.19.1.13.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|On", "address": "/14.19.1.13.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|Toggle x2", "address": "/14.19.1.13.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|Toggle x2", "address": "/14.19.1.13.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|Pause", "address": "/14.19.1.13.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|Flash On/Off", "address": "/14.19.1.13.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|Flash On/Off", "address": "/14.19.1.13.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|FaderMaster 50/100", "address": "/14.19.1.13.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|FaderMaster 50/100", "address": "/14.19.1.13.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix7.jsonl", "step": "KeyboardShortcut 1|Off", "address": "/14.19.1.13.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|Go+", "address": "/14.19.1.15.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|On", "address": "/14.19.1.15.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|Toggle x2", "address": "/14.19.1.15.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|Toggle x2", "address": "/14.19.1.15.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|Pause", "address": "/14.19.1.15.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|Flash On/Off", "address": "/14.19.1.15.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|Flash On/Off", "address": "/14.19.1.15.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|FaderMaster 50/100", "address": "/14.19.1.15.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|FaderMaster 50/100", "address": "/14.19.1.15.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix7.jsonl", "step": "RenderQuality 1|Off", "address": "/14.19.1.15.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Go+", "address": "/14.14.125.7.213", "types": "sis", "args": ["Go+", 1, "FR P2;1 [Fronts/P1]"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|On", "address": "/14.14.125.7.213", "types": "sis", "args": ["On", 1, "FR P2;1 [Fronts/P1]"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Toggle x2", "address": "/14.14.125.7.213", "types": "sis", "args": ["Toggle", 1, "FR P2;1 [Fronts/P1]"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Toggle x2", "address": "/14.14.125.7.213", "types": "sis", "args": ["Off", 1, "FR P2"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Toggle x2", "address": "/14.14.125.7.76", "types": "sis", "args": ["Toggle", 1, "BUMP;1 Slow"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Toggle x2", "address": "/14.14.125.7.76", "types": "sis", "args": ["Off", 1, "BUMP"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Pause", "address": "/14.14.125.7.212", "types": "sis", "args": ["Pause", 2, "FR P1"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Flash On/Off", "address": "/14.14.125.7.212", "types": "sis", "args": ["Flash", 1, "FR P1"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Flash On/Off", "address": "/14.14.125.7.212", "types": "sis", "args": ["Flash", 0, "FR P1"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|FaderMaster 50/100", "address": "/14.14.125.7.212", "types": "sifs", "args": ["FaderMaster", 1, 50.0, "FR P1"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|FaderMaster 50/100", "address": "/14.14.125.7.212", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "FR P1"]}
+{"src": "matrix7.jsonl", "step": "RunningPlayback 1|Off", "address": "/14.14.125.7.212", "types": "sis", "args": ["Off", 1, "FR P1"]}
+{"src": "matrix7.jsonl", "step": "MyRunningPlayback 1|Go+", "address": "/14.14.125.7.212", "types": "sis", "args": ["Go+", 1, "FR P1;1 [P1]"]}
+{"src": "matrix7.jsonl", "step": "MyRunningPlayback 1|On", "address": "/14.14.125.7.212", "types": "sis", "args": ["On", 1, "FR P1;1 [P1]"]}
+{"src": "matrix7.jsonl", "step": "MyRunningPlayback 1|Toggle x2", "address": "/14.14.125.7.212", "types": "sis", "args": ["Toggle", 1, "FR P1;1 [P1]"]}
+{"src": "matrix7.jsonl", "step": "MyRunningPlayback 1|Toggle x2", "address": "/14.14.125.7.212", "types": "sis", "args": ["Off", 1, "FR P1"]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|Go+", "address": "/15.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|On", "address": "/15.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|Toggle x2", "address": "/15.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|Toggle x2", "address": "/15.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|Pause", "address": "/15.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|Flash On/Off", "address": "/15.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|Flash On/Off", "address": "/15.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|FaderMaster 50/100", "address": "/15.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|FaderMaster 50/100", "address": "/15.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix7.jsonl", "step": "TimecodeSlot 1|Off", "address": "/15.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|Go+", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|On", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|Toggle x2", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|Toggle x2", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["Toggle", 1]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|Pause", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["Pause", 2]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|Flash On/Off", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|Flash On/Off", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|FaderMaster 50/100", "address": "/14.19.1.11.1.2.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|FaderMaster 50/100", "address": "/14.19.1.11.1.2.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix7.jsonl", "step": "ViewButton 1|Off", "address": "/14.19.1.11.1.2.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix7.jsonl", "step": "restore|On DataPool 125 Sequence 212", "address": "/14.14.125.7.212", "types": "sis", "args": ["On", 1, "FR P1;1 [P1]"]}
+{"src": "matrix7.jsonl", "step": "restore|On DataPool 125 Sequence 76", "address": "/14.14.125.7.76", "types": "sis", "args": ["On", 1, "BUMP;1 Slow"]}
+{"src": "matrix8.jsonl", "step": "m8|Sequence 999 Cue 1 Part 1 | Go+", "address": "/14.14.1.7.999.-1.1", "types": "si", "args": ["Go+", 1]}
+{"src": "matrix8.jsonl", "step": "m8|Sequence 999 Cue 1 Part 1 | On", "address": "/14.14.1.7.999.-1.1", "types": "si", "args": ["On", 1]}
+{"src": "matrix8.jsonl", "step": "m8|Sequence 999 Cue 1 Part 1 | Flash On/Off", "address": "/14.14.1.7.999.-1.1", "types": "si", "args": ["Flash", 1]}
+{"src": "matrix8.jsonl", "step": "m8|Sequence 999 Cue 1 Part 1 | Flash On/Off", "address": "/14.14.1.7.999.-1.1", "types": "si", "args": ["Flash", 0]}
+{"src": "matrix8.jsonl", "step": "m8|Sequence 999 Cue 1 Part 1 | FaderMaster 50/100", "address": "/14.14.1.7.999.-1.1", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"src": "matrix8.jsonl", "step": "m8|Sequence 999 Cue 1 Part 1 | FaderMaster 50/100", "address": "/14.14.1.7.999.-1.1", "types": "sif", "args": ["FaderMaster", 1, 100.0]}
+{"src": "matrix8.jsonl", "step": "m8|Sequence 999 Cue 1 Part 1 | Off", "address": "/14.14.1.7.999.-1.1", "types": "si", "args": ["Off", 1]}
+{"src": "matrix8.jsonl", "step": "m8|cleanup Off Sequence 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "Sequence 999"]}
+{"src": "sm_test.jsonl", "step": "setup", "address": "/14.14.1.7.998", "types": "sis", "args": ["Off", 1, "SM998"]}
+{"src": "sm_test.jsonl", "step": "setup", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "1a fader 0 while off", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 0.0, "SM999"]}
+{"src": "sm_test.jsonl", "step": "1b fader 0->60 (autostart?)", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 59.999996, "SM999"]}
+{"src": "sm_test.jsonl", "step": "1c fader 60->0 (autostop?)", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 0.0, "SM999"]}
+{"src": "sm_test.jsonl", "step": "1d autostart off: fader 0->60", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 59.999996, "SM999"]}
+{"src": "sm_test.jsonl", "step": "1e restore autostart, fader 100, Off", "address": "/14.14.1.7.999", "types": "sifs", "args": ["FaderMaster", 1, 100.0, "SM999"]}
+{"src": "sm_test.jsonl", "step": "1e restore autostart, fader 100, Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "2a wrap=false, Go+ (cue1)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "2b Go+ (cue2)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;1 Cue"]}
+{"src": "sm_test.jsonl", "step": "2c Go+ (cue3)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;2 Cue"]}
+{"src": "sm_test.jsonl", "step": "2d Go+ past last cue, wrap off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;3 Cue"]}
+{"src": "sm_test.jsonl", "step": "2f restore wrap, Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "3a start both", "address": "/14.14.1.7.998", "types": "sis", "args": ["Go+", 1, "SM998;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "3a start both", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "3b Off Sequence 998 Thru 999", "address": "/14.14.1.7.998", "types": "sis", "args": ["Off", 1, "SM998"]}
+{"src": "sm_test.jsonl", "step": "3b Off Sequence 998 Thru 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "3c start both", "address": "/14.14.1.7.998", "types": "sis", "args": ["Go+", 1, "SM998;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "3c start both", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "3d Off Page 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "3d Off Page 999", "address": "/14.14.1.7.998", "types": "sis", "args": ["Off", 1, "SM998"]}
+{"src": "sm_test.jsonl", "step": "3e start via exec keys", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "3e start via exec keys", "address": "/14.14.1.7.998", "types": "sis", "args": ["Go+", 1, "SM998;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "3f Off Page 999.101 Thru 102", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "3f Off Page 999.101 Thru 102", "address": "/14.14.1.7.998", "types": "sis", "args": ["Off", 1, "SM998"]}
+{"src": "sm_test.jsonl", "step": "4a override: offwhenoverridden=true, Go+ 999", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "4b Go+ 998 (same content overrides 999)", "address": "/14.14.1.7.998", "types": "sis", "args": ["Go+", 1, "SM998;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "4c cleanup", "address": "/14.14.1.7.998", "types": "sis", "args": ["Off", 1, "SM998"]}
+{"src": "sm_test.jsonl", "step": "4c cleanup", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "5a Go+ x2 (cue1, cue2)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "5a Go+ x2 (cue1, cue2)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;1 Cue"]}
+{"src": "sm_test.jsonl", "step": "5b Go+ while running -> cue3", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;2 Cue"]}
+{"src": "sm_test.jsonl", "step": "5c Off then Go+ (restart First Cue)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "5c Off then Go+ (restart First Cue)", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "5d restartmode=Current Cue: Go+ (cue2), Off, Go+", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;1 Cue"]}
+{"src": "sm_test.jsonl", "step": "5d restartmode=Current Cue: Go+ (cue2), Off, Go+", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "5d restartmode=Current Cue: Go+ (cue2), Off, Go+", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;1 Cue"]}
+{"src": "sm_test.jsonl", "step": "5e restore restartmode, Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "6a Go+ then Pause", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;0.003 Cue"]}
+{"src": "sm_test.jsonl", "step": "6a Go+ then Pause", "address": "/14.14.1.7.999", "types": "sis", "args": ["Pause", 2, "SM999"]}
+{"src": "sm_test.jsonl", "step": "6b Go+ while paused", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;1 Cue"]}
+{"src": "sm_test.jsonl", "step": "6c Pause, Pause", "address": "/14.14.1.7.999", "types": "sis", "args": ["Pause", 2, "SM999"]}
+{"src": "sm_test.jsonl", "step": "6c Pause, Pause", "address": "/14.14.1.7.999", "types": "sis", "args": ["Pause", 2, "SM999"]}
+{"src": "sm_test.jsonl", "step": "6d Pause, Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Pause", 2, "SM999"]}
+{"src": "sm_test.jsonl", "step": "6d Pause, Off", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}
+{"src": "sm_test.jsonl", "step": "7a follow: cue2+3 trig Follow, wrap off, Goto cue 1", "address": "/14.14.1.7.999", "types": "sis", "args": ["Goto", 1, "SM999;1 Cue"]}
+{"src": "sm_test.jsonl", "step": "7a follow: cue2+3 trig Follow, wrap off, Goto cue 1", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;2 Cue"]}
+{"src": "sm_test.jsonl", "step": "7a follow: cue2+3 trig Follow, wrap off, Goto cue 1", "address": "/14.14.1.7.999", "types": "sis", "args": ["Go+", 1, "SM999;3 Cue"]}
+{"src": "sm_test.jsonl", "step": "8 cleanup", "address": "/14.14.1.7.998", "types": "sis", "args": ["Off", 1, "SM998"]}
+{"src": "sm_test.jsonl", "step": "8 cleanup", "address": "/14.14.1.7.999", "types": "sis", "args": ["Off", 1, "SM999"]}

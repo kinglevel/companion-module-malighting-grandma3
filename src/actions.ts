@@ -1,16 +1,13 @@
 import type { ModuleInstance } from './main.js'
+import type { Tri } from './ma/sequences.js'
+import { buildPickerFields, resolvePicker, SEQUENCE_PICKER } from './picker/objectPicker.js'
 
 export function UpdateActions(self: ModuleInstance): void {
-	const sendOscMessage = (path: any, args: any) => {
-		self.log('debug', `OSC: Sending to ${self.config.host}:${self.config.port} ${path}`)
-		self.log('debug', `OSC: Sending args ${JSON.stringify(args)}`)
-
-		let customPath = path
-		if (self.config.inputPrefix) {
-			customPath = '/' + self.config.inputPrefix + path
-			self.log('debug', `OSC: Using custom path ${customPath}`)
-		}
-		self.oscSend(self.config.host, self.config.port, customPath, args)
+	// Arguments stay loosely typed: the executor action sends a `T` (true) argument, which Companion's
+	// OSC sender supports but its type definitions do not list
+	const sendOscMessage = (path: string, args: any) => {
+		self.log('debug', `OSC: Sending to ${self.config.host}:${self.config.port} ${path} ${JSON.stringify(args)}`)
+		self.sendOsc(path, args)
 	}
 
 	self.setActionDefinitions({
@@ -484,6 +481,10 @@ export function UpdateActions(self: ModuleInstance): void {
 
 				const pageVal = use_current_page ? '' : page
 
+				// MA sends no feedback for direct executor input: read the executor's sequence state instead
+				// (debounced, so a press + release becomes one read-only query)
+				self.engine?.checkExecutor(use_current_page ? 0 : Number(page), Number(button_number))
+
 				if (button_state === 'push') {
 					sendOscMessage('/Page' + pageVal + '/Key' + button_number, [
 						{
@@ -498,6 +499,64 @@ export function UpdateActions(self: ModuleInstance): void {
 						},
 					])
 				}
+			},
+		},
+		feedback_resync: {
+			name: 'Feedback: resync states from grandMA3',
+			description:
+				'Reads the running state of every sequence with a read-only Lua query (needs "Receive Command" on the grandMA3 OSC entry). Visible once in the grandMA3 command line.',
+			options: [],
+			callback: async () => {
+				if (!self.engine) {
+					self.log('warn', 'Resync: feedback is disabled in the connection settings')
+					return
+				}
+				self.engine.resync()
+			},
+		},
+		set_sequence_state: {
+			name: 'Feedback: set sequence state manually',
+			description:
+				'Overrides what the module believes about a sequence (e.g. on a startup trigger). The next message from grandMA3 for that sequence replaces it.',
+			options: [
+				...buildPickerFields(SEQUENCE_PICKER, self.engine?.catalog),
+				{
+					type: 'dropdown',
+					label: 'State',
+					id: 'state',
+					default: 'off',
+					choices: [
+						{ id: 'on', label: 'Running' },
+						{ id: 'off', label: 'Off' },
+						{ id: 'unknown', label: 'Unknown' },
+					],
+				},
+				{
+					type: 'textinput',
+					label: 'Cue Number (optional, when running)',
+					id: 'cue',
+					default: '',
+					useVariables: true,
+					isVisibleExpression: "$(options:state) == 'on'",
+				},
+			],
+			callback: async (event) => {
+				if (!self.engine) {
+					self.log('warn', 'Set sequence state: feedback is disabled in the connection settings')
+					return
+				}
+				const { result: resolved } = await resolvePicker(SEQUENCE_PICKER, event.options, self.engine, async (t) =>
+					self.parseVariablesInString(t),
+				)
+				if (!resolved.ok) {
+					self.log('error', `Set sequence state: cannot resolve the sequence (${resolved.reason})`)
+					return
+				}
+				const { dataPool: dp, sequence: seq } = resolved.ref
+				const cue = (await self.parseVariablesInString(String(event.options.cue ?? ''))).trim()
+				const state = String(event.options.state) as Tri
+				if (state !== 'on' && state !== 'off' && state !== 'unknown') return
+				self.engine.setManual(dp, seq, state, cue || undefined)
 			},
 		},
 	})

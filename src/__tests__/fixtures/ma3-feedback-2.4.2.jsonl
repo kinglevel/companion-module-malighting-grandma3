@@ -1,0 +1,23 @@
+{"step": "Go+", "address": "/14.14.1.6.999", "types": "si", "args": ["Off", 1]}
+{"step": "Go+", "address": "/14.14.1.6.999", "types": "sis", "args": ["Go+", 1, "Show Seq 9 1 Cue"]}
+{"step": "Go+ (cue 2, named with digits)", "address": "/14.14.1.6.999", "types": "sis", "args": ["Go+", 1, "Show Seq 9 2 Big look 2 warm"]}
+{"step": "Goto Cue 1", "address": "/14.14.1.6.999", "types": "sis", "args": ["Goto", 1, "Show Seq 9 1 Cue"]}
+{"step": "Top", "address": "/14.14.1.6.999", "types": "sis", "args": ["Top", 1, "Show Seq 9 1 Cue"]}
+{"step": "Pause, Pause", "address": "/14.14.1.6.999", "types": "si", "args": ["Pause", 2]}
+{"step": "Pause, Pause", "address": "/14.14.1.6.999", "types": "si", "args": ["Pause", 2]}
+{"step": "Flash On/Off", "address": "/14.14.1.6.999", "types": "si", "args": ["Flash", 1]}
+{"step": "Flash On/Off", "address": "/14.14.1.6.999", "types": "si", "args": ["Flash", 0]}
+{"step": "Temp On/Off", "address": "/14.14.1.6.999", "types": "si", "args": ["Temp", 1]}
+{"step": "Temp On/Off", "address": "/14.14.1.6.999", "types": "si", "args": ["Temp", 0]}
+{"step": "Off", "address": "/14.14.1.6.999", "types": "si", "args": ["Off", 1]}
+{"step": "On", "address": "/14.14.1.6.999", "types": "sis", "args": ["On", 1, "Show Seq 9 1 Cue"]}
+{"step": "Toggle (off)", "address": "/14.14.1.6.999", "types": "sis", "args": ["Toggle", 1, "Show Seq 9 1 Cue"]}
+{"step": "Toggle (on)", "address": "/14.14.1.6.999", "types": "sis", "args": ["Toggle", 1, "Show Seq 9 1 Cue"]}
+{"step": "FaderMaster 50", "address": "/14.14.1.6.999", "types": "sif", "args": ["FaderMaster", 1, 50.0]}
+{"step": "FaderMaster 0 (autostop)", "address": "/14.14.1.6.999", "types": "sif", "args": ["FaderMaster", 1, 0.0]}
+{"step": "FaderMaster 70 (autostart)", "address": "/14.14.1.6.999", "types": "sif", "args": ["FaderMaster", 1, 70.0]}
+{"step": "Off Page 999", "address": "/14.14.1.6.999", "types": "si", "args": ["Off", 1]}
+{"step": "Go+ via executor", "address": "/14.14.1.6.999", "types": "sis", "args": ["Go+", 1, "Show Seq 9 1 Cue"]}
+{"step": "Group 1 Flash", "address": "/14.14.1.5.1", "types": "si", "args": ["Flash", 1]}
+{"step": "Group 1 Flash", "address": "/14.14.1.5.1", "types": "si", "args": ["Flash", 0]}
+{"step": "cleanup", "address": "/14.14.1.6.999", "types": "si", "args": ["Off", 1]}
